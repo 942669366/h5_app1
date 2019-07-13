@@ -1,0 +1,282 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,li,input,form,select{
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 100%;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+em{
+	font-style: normal;
+}
+.clearfix:before,.clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix{
+	zoom: 1;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+
+.main_wrap{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background-color: gold;
+}
+.header{
+	height: 2.5rem;
+	background-color: #37ab40;
+	position: relative;/*相对定位*/
+}
+.header .logo{
+	display: block;
+	width: 4.45rem;
+	height: 1.8rem;
+	margin: 0.35rem auto 0;
+}
+.header .logo img{
+	width: 100%;
+} 
+.header .search{
+	position: absolute;
+	width: 2.2rem;
+	height: 1.6rem;
+	right: 0rem;
+	top: 0.5rem;
+	/*text-outline: 0.625rem;*/
+	background:url(../img/1.png) left top no-repeat;
+	background-size: 1.5rem 24.0rem;
+	/*width: 54px;
+	height: 54px;
+	right: 30px;
+	top: 25px;
+	background-size: 120px 1680px;*/
+}
+
+.center_wrap{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2.5rem;
+	bottom: 2.5rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color:#efefef;
+}
+.slide img{
+	width: 100%
+}
+.menu_con{
+	height: 9.25rem;
+	background-color: #FFFFFF;
+	margin-top: 0.25rem;
+	overflow: hidden;
+}
+.menu{
+	width: 19.0rem;
+	height: 8.1rem;
+	margin: 0.7rem 0 0 1.375rem;
+}
+.menu li{
+	widows: 2.5rem;
+	height: 4.1rem;
+	float: left;
+	margin-right: 1.625rem;
+	text-align: center;
+}
+.menu li a{
+	text-align: center;
+	display: block;
+	width: 2.8rem;
+	height: 2.5rem;
+	background:url(../img/1.png) 0.2rem -2.3rem no-repeat;
+	background-size: 2.6rem 38.4rem;
+}
+.menu li:nth-child(2) a{
+	background-position: left -4.65rem;
+}
+.menu li:nth-child(3) a{
+	background-position: left -6.9rem;
+}
+.menu li:nth-child(4) a{
+	background-position: left -9.2rem;
+}
+.menu li:nth-child(5) a{
+	background-position: left -11.6rem;
+}
+.menu li:nth-child(6) a{
+	background-position: left -14.0rem;
+}
+.menu li:nth-child(7) a{
+	background-position: left -16.35rem;
+}
+.menu li:nth-child(8) a{
+	background-position: left -19rem;
+}
+.common_model{
+	background-color: #fff;
+	margin: 0.5rem 0;
+}
+.common_tital{
+	width: 17.75rem;
+	height: 0.9rem;
+	margin: 0.8rem auto 0;
+
+}
+.menu li h2{
+	height: 1.3rem;
+	font-size: 10px;
+	color: #666;
+}
+.common_tital h3{
+	margin-top: 0.25rem;
+	border-left: 0.25rem solid #fbc83d;
+	font: 15px/0.9rem "Microsoft Yahei";
+	color: #fbc83d;
+	text-indent: 0.4rem;f
+}
+.common_tital a{
+	margin-top: 0.25rem;
+	font: 12px/0.9rem "Microsoft Yahei";
+	color: #7f7f7f;
+}
+.common_banner{
+	width: 17.75rem;
+	height: 6rem;
+	margin: 0.5rem auto 0;
+}
+.common_banner img{
+	width: 100%;
+}
+.goods{
+	margin-top:0;
+}
+.goods_list{
+	width: 17.75rem;
+	height: 9.35rem;
+	margin: 0.5rem  auto 0.7rem;
+}
+.goods_list li{
+	float: left;
+	width: 5.8rem;
+	height: 9.35rem;
+	border-right: 1px solid #e7e7e7;
+	position: relative;
+}
+.goods_list li:last-child{
+	border-right: 0px;
+}
+.goods_list li .goods_pic{
+	display: block;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin: 0.5rem auto 0;
+}
+.goods_list li .goods_pic img{
+	width: 100%;
+}
+.goods_list li .goods_name{
+	width: 5.0rem;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;/*当文本超出制定的区域宽度的时候，自动将后面的文字进行隐藏，并用...代替*/
+	font: 15px/15px "microsoft yahei";
+	color: #666;
+	margin: 0.75rem auto 0;
+}
+.goods_list li .goods_unit{
+	width: 5rem;
+	font: 12px/12px "microsoft yahei";
+	color: #bbb;
+	margin: 0.8rem auto 0;
+}
+.goods_list li .goods_price{
+	width: 5rem;
+	font: 12px/12px "microsoft yahei";
+	color: #ff4400;
+	margin: 0.5rem auto 0;
+}
+.goods_list li .add_chart{
+	position: absolute;
+	width: 1.7rem;
+	height: 1.7rem;
+	right: 0.675rem;
+	bottom: 0;
+	/*background-color: gold;*/
+	background:url(../img/1.png) 0.08rem -16.3rem no-repeat;
+	background-size: 1.5rem 24rem;
+	
+}
+@media (min-width:380px){/*  响应式布局，屏幕的宽度大于380px的时候自动改变所定义的元素属性值*/
+	.goods_list li .goods_price{
+		font: 14px/14px "microsoft yahei";
+	}
+	.goods_list li .goods_unit{
+		font: 14px/14px "microsoft yahei";
+	}
+}
+.footer{
+	position: absolute;
+	width: 100%;
+	height: 2.5rem;
+	background-color: #fff;
+	left: 0;
+	bottom: 0;
+}
+.footer ul{
+	height: 2.5rem;
+}
+.footer ul li{
+	width: 25%;
+	height: 2.6rem;
+	float: left;
+}
+.footer li a{
+	display: block;
+	height: 1.5rem;
+	width: 1.5rem;
+	margin: 0.2rem auto 0;
+	background:url(../img/2.png) 0.01rem -18rem no-repeat;
+	background-size: 1.5rem 24rem;
+}
+.footer li:nth-child(2) a{
+	background:url(../img/1.png) 0.07rem -19.5rem no-repeat;
+	background-size: 1.5rem 24rem;
+	/* background-position: 0.07rem -19.5rem; */
+}
+.footer li:nth-child(3) a{
+	background:url(../img/1.png) left -21rem no-repeat;
+	background-size: 1.5rem 24rem;
+	/* background-position: left -21rem; */
+}
+.footer li:nth-child(4) a{
+	background:url(../img/1.png) left -22.5rem no-repeat;
+	background-size: 1.5rem 24rem;
+	/* background-position: left -22.5rem; */
+}
+.footer li h2{
+	font: 12px/12px "microsoft yahei";
+	color: #949392;
+	text-align: center;
+	margin-top: 0.2rem
+}
+.footer li:nth-child(1) h2{
+	color: #37ab40
+}
